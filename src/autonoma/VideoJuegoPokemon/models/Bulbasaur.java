@@ -6,8 +6,15 @@ package autonoma.VideoJuegoPokemon.models;
 
 /**
  *
- * @author Maria Paz Puerta
+ * @author Maria Paz Puerta <mariap.puertaa@autonoma.edu.co>
+ * @since 20250326
+ * @version 1.0.0
+ * 
  */
-public class Bulbasaur {
+public class Bulbasaur extends Pokemon{
+    
+    public Bulbasaur(int nombrePokedex, String nombre, double peso, int temporada) {
+        super(nombrePokedex, nombre, peso, temporada);
+    }
     
 }
