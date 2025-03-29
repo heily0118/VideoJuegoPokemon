@@ -19,7 +19,7 @@ public class Pikachu extends Pokemon implements PokemonElectrico {
 
     @Override
     public String atacarPunioTrueno() {
-       return "Soy " + getNombre() + " y estoy atacando con Puño Trueno.";
+       return "Soy " + getNombre() + " y estoy atacando con Punio Trueno.";
     }
 
     @Override

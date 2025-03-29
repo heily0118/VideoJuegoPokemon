@@ -24,18 +24,18 @@ public class VideoJuegoPokemon {
         Bulbasaur bulbasaur = new Bulbasaur(1, "Bulbasaur", 6.9, 1);
 
        
-        System.out.println("----- Ataques Pokémon -----");
-        pikachu.atacarImpactrueno();
-        pikachu.atacarPunioTrueno();
+        System.out.println("----- Ataques Pokemon -----");
+        System.out.println(pikachu.atacarImpactrueno());
+        System.out.println(pikachu.atacarPunioTrueno()); 
 
-        charmander.atacarLanzallamas();
-        charmander.atacarAscuas();
+        System.out.println(charmander.atacarLanzallamas());
+        System.out.println(charmander.atacarAscuas());
 
-        squirtle.atacarHidrobomba();
-        squirtle.atacarBurbuja();
+        System.out.println(squirtle.atacarHidrobomba());
+        System.out.println(squirtle.atacarBurbuja());
 
-        bulbasaur.atacarLatigoCepa();
-        bulbasaur.atacarDrenaje();
+        System.out.println(bulbasaur.atacarLatigoCepa());
+        System.out.println(bulbasaur.atacarDrenaje());
         
         System.out.println("-------------------------");
     
