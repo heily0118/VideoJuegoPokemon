@@ -13,4 +13,9 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonPlanta {
     
+    public abstract String atacarParalizar();
+    public abstract String atacarDrenaje();
+    public abstract String atacarHojaAfilada();
+    public abstract String atacarLatigoCepa();
+    
 }

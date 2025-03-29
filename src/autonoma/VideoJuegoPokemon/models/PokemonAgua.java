@@ -13,4 +13,10 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonAgua {
     
+    public abstract String atacarHidrobomba();
+    public abstract String atacarPistolaAgua();
+    public abstract String atacarBurbuja();
+    public abstract String atacarHidropulso();
+    
+    
 }
