@@ -18,22 +18,22 @@ public class Squirtle extends Pokemon implements PokemonAgua{
 
     @Override
     public String atacarHidrobomba() {
-        return "Soy" + getNombre() +" y estoy atacando con Hidrobomba";
+        return "Soy" + getNombre() + " y estoy atacando con Hidrobomba";
     }
 
     @Override
     public String atacarPistolaAgua() {
-        return "Soy" + getNombre() +" y estoy atacando con Pistola de Agua";
+        return "Soy" + getNombre() + " y estoy atacando con Pistola de Agua";
     }
 
     @Override
     public String atacarBurbuja() {
-        return "Soy" + getNombre() +" y estoy atacando con Burbuja";
+        return "Soy" + getNombre() + " y estoy atacando con Burbuja";
     }
 
     @Override
     public String atacarHidropulso() {
-        return "Soy" + getNombre() +" y estoy atacando con Hidropulso";
+        return "Soy" + getNombre() + " y estoy atacando con Hidropulso";
     }
     
     
