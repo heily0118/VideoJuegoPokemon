@@ -16,9 +16,9 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
     /**
      * Constructor de la clase Bulbasaur
      * @param nombrePokedex El número de la Pokédex asignado a el pokémon Bulbasaur.
-     * @param nombre El nombre del pokémon
-     * @param peso El peso del pokémon
-     * @param temporada La temporada en la que aparece el Pokémon.
+     * @param nombre El nombre del pokémon (Bulbasaur).
+     * @param peso El peso del pokémon Bulbasaur.
+     * @param temporada La temporada en la que aparece el pokémon Bulbasaur.
      */
     public Bulbasaur(int nombrePokedex, String nombre, double peso, int temporada) {
         super(nombrePokedex, nombre, peso, temporada);
