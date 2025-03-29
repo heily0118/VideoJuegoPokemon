@@ -20,15 +20,48 @@ public abstract class Pokemon {
         this.peso = peso;
         this.temporada = temporada;
     }
-    public void atacarPlacaje(){
-        System.out.println("Soy " + nombre + " y estoy atacando con Placaje.");
+
+    public int getNombrePokedex() {
+        return nombrePokedex;
+    }
+
+    public void setNombrePokedex(int nombrePokedex) {
+        this.nombrePokedex = nombrePokedex;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public int getTemporada() {
+        return temporada;
+    }
+
+    public void setTemporada(int temporada) {
+        this.temporada = temporada;
+    }
+    
+    public String atacarPlacaje(){
+        return "Soy " + nombre + " y estoy atacando con Placaje.";
         
     }
-    public void atacarArañazo(){
-        System.out.println("Soy " + nombre + " y estoy atacando con Arañazo.");
+    public String atacarArañazo(){
+        return "Soy " + nombre + " y estoy atacando con Arañazo.";
         
     }
-    public void atacarMordisco(){
-        System.out.println("Soy " + nombre + " y estoy atacando con Mordisco.");
+    public String atacarMordisco(){
+        return "Soy " + nombre + " y estoy atacando con Mordisco.";
     }
 }
