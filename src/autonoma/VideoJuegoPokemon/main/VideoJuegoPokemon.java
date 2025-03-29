@@ -4,6 +4,11 @@
  */
 package autonoma.VideoJuegoPokemon.main;
 
+import autonoma.VideoJuegoPokemon.models.Bulbasaur;
+import autonoma.VideoJuegoPokemon.models.Charmander;
+import autonoma.VideoJuegoPokemon.models.Pikachu;
+import autonoma.VideoJuegoPokemon.models.Squirtle;
+
 /**
  *
  * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
@@ -13,12 +18,12 @@ package autonoma.VideoJuegoPokemon.main;
 public class VideoJuegoPokemon {
 
     public static void main(String[] args) {
-      Pikachu pikachu = new Pikachu(25, "Pikachu", 6.0, 1);
+        Pikachu pikachu = new Pikachu(25, "Pikachu", 6.0, 1);
         Charmander charmander = new Charmander(4, "Charmander", 8.5, 1);
         Squirtle squirtle = new Squirtle(7, "Squirtle", 9.0, 1);
         Bulbasaur bulbasaur = new Bulbasaur(1, "Bulbasaur", 6.9, 1);
 
-        // Llamar a los métodos de ataque
+       
         System.out.println("----- Ataques Pokémon -----");
         pikachu.atacarImpactrueno();
         pikachu.atacarPunioTrueno();
@@ -31,6 +36,8 @@ public class VideoJuegoPokemon {
 
         bulbasaur.atacarLatigoCepa();
         bulbasaur.atacarDrenaje();
+        
+        System.out.println("-------------------------");
     
     }
     
