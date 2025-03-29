@@ -6,8 +6,17 @@ package autonoma.VideoJuegoPokemon.models;
 
 /**
  *
- * @author Maria Paz Puerta
+ * @author Maria Paz Puerta <mariap.puertaa@autonoma.edu.co>
+ * @since 20250326
+ * @version 1.0.0
+ * 
  */
-public class PokemonAgua {
+public interface PokemonAgua {
+    
+    public abstract String atacarHidrobomba();
+    public abstract String atacarPistolaAgua();
+    public abstract String atacarBurbuja();
+    public abstract String atacarHidropulso();
+    
     
 }
