@@ -21,12 +21,14 @@ public abstract class Pokemon {
         this.temporada = temporada;
     }
     public void atacarPlacaje(){
+        System.out.println("Soy " + nombre + " y estoy atacando con Placaje.");
         
     }
     public void atacarArañazo(){
+        System.out.println("Soy " + nombre + " y estoy atacando con Arañazo.");
         
     }
     public void atacarMordisco(){
-        
+        System.out.println("Soy " + nombre + " y estoy atacando con Mordisco.");
     }
 }
