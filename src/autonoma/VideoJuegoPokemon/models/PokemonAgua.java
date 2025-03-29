@@ -13,10 +13,28 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonAgua {
     
+    /**
+     * Realiza el ataque Hidrobomba.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Hidrobomba.
+     */
     public abstract String atacarHidrobomba();
-    public abstract String atacarPistolaAgua();
-    public abstract String atacarBurbuja();
-    public abstract String atacarHidropulso();
     
+    /**
+     * Realiza el ataque Pistola Agua.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Pistola Agua.
+     */
+    public abstract String atacarPistolaAgua();
+    
+    /**
+     * Realiza el ataque Burbuja.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Burbuja.
+     */
+    public abstract String atacarBurbuja();
+    
+    /**
+     * Realiza el ataque Hidropulso.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Hidropulso.
+     */
+    public abstract String atacarHidropulso();
     
 }
