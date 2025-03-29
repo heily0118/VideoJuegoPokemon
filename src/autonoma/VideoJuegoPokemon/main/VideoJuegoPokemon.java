@@ -6,15 +6,32 @@ package autonoma.VideoJuegoPokemon.main;
 
 /**
  *
- * @author USUARIO
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
+ * @since 20250326
+ * @version 1.0.0
  */
 public class VideoJuegoPokemon {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+      Pikachu pikachu = new Pikachu(25, "Pikachu", 6.0, 1);
+        Charmander charmander = new Charmander(4, "Charmander", 8.5, 1);
+        Squirtle squirtle = new Squirtle(7, "Squirtle", 9.0, 1);
+        Bulbasaur bulbasaur = new Bulbasaur(1, "Bulbasaur", 6.9, 1);
+
+        // Llamar a los métodos de ataque
+        System.out.println("----- Ataques Pokémon -----");
+        pikachu.atacarImpactrueno();
+        pikachu.atacarPunioTrueno();
+
+        charmander.atacarLanzallamas();
+        charmander.atacarAscuas();
+
+        squirtle.atacarHidrobomba();
+        squirtle.atacarBurbuja();
+
+        bulbasaur.atacarLatigoCepa();
+        bulbasaur.atacarDrenaje();
+    
     }
     
 }

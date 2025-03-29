@@ -7,10 +7,12 @@ package autonoma.VideoJuegoPokemon.models;
 /**
  *
  * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
+ * @since 20250326
+ * @version 1.0.0
  */
 public abstract class Pokemon {
     private int nombrePokedex;
-    private String nombre;
+    String nombre;
     private double peso;
     private int temporada;
 

@@ -7,6 +7,8 @@ package autonoma.VideoJuegoPokemon.models;
 /**
  *
  * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
+ * @since 20250326
+ * @version 1.0.0
  */
 public class Pikachu extends Pokemon implements PokemonElectrico {
     
@@ -32,6 +34,6 @@ public class Pikachu extends Pokemon implements PokemonElectrico {
 
     @Override
     public String atacarImpactrueno() {
-        return "Soy " + getNombre() + " y estoy atacando con Impac Trueno.";
+        return "Soy " + getNombre() + " y estoy atacando con Impactrueno.";
     }
 }
