@@ -12,7 +12,22 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonFuego {
     
+    /**
+     * Realiza el ataque Punio Fuego.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Punio Fuego.
+     */
     public abstract String atacarPunioFuego();
+    
+    /**
+     * Realiza el ataque Ascuas.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Ascuas.
+     */
     public abstract String atacarAscuas();
+    
+    /**
+     * Realiza el ataque Lanzallamas.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Lanzallamas.
+     */
     public abstract String atacarLanzallamas();
+    
 }
