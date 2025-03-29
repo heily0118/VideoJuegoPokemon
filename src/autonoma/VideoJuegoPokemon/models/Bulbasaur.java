@@ -11,10 +11,30 @@ package autonoma.VideoJuegoPokemon.models;
  * @version 1.0.0
  * 
  */
-public class Bulbasaur extends Pokemon{
+public class Bulbasaur extends Pokemon implements PokemonPlanta{
     
     public Bulbasaur(int nombrePokedex, String nombre, double peso, int temporada) {
         super(nombrePokedex, nombre, peso, temporada);
+    }
+
+    @Override
+    public String atacarParalizar() {
+        return "Soy" + getNombre() +" y estoy atacando con Paralizar";
+    }
+
+    @Override
+    public String atacarDrenaje() {
+        return "Soy " + getNombre() +" y estoy atacando con drenaje";
+    }
+
+    @Override
+    public String atacarHojaAfilada() {
+        return "Soy " + getNombre() +" y estoy atacando con hoja afilada";
+    }
+
+    @Override
+    public String atacarLatigoCepa() {
+        return "Soy " + getNombre() +" y estoy atacando con latigo cepa";
     }
     
 }
