@@ -13,9 +13,28 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonPlanta {
     
+    /**
+     * Realiza el ataque Paralizar.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Paralizar.
+     */
     public abstract String atacarParalizar();
+    
+    /**
+     * Realiza el ataque Drenaje.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Drenaje.
+     */
     public abstract String atacarDrenaje();
+    
+    /**
+     * Realiza el ataque Hoja Afilada.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Hoja Afilada.
+     */
     public abstract String atacarHojaAfilada();
+    
+    /**
+     * Realiza el ataque Latigo Cepa.
+     * @return Retorna un mensaje indicando que el Pokémon está utilizando el ataque Latigo Cepa.
+     */
     public abstract String atacarLatigoCepa();
     
 }
