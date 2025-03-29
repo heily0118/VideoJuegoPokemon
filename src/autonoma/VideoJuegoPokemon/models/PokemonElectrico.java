@@ -10,7 +10,7 @@ package autonoma.VideoJuegoPokemon.models;
  */
 public interface PokemonElectrico {
 
-    public abstract String atacarImpacTrueno();
+    public abstract String atacarImpactrueno();
     public abstract String atacarPunioTrueno();
     public abstract String atacarRayo();
     public abstract String atacarRayoCargo();
