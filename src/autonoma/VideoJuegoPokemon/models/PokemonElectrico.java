@@ -6,8 +6,10 @@ package autonoma.VideoJuegoPokemon.models;
 
 /**
  *
- * @author USUARIO
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
  */
-public class PokemonElectrico {
+public interface PokemonElectrico {
+
+    
     
 }
