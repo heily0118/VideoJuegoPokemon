@@ -11,10 +11,27 @@ package autonoma.VideoJuegoPokemon.models;
  * @version 1.0.0
  * 
  */
-public class Charmander extends Pokemon{
+public class Charmander extends Pokemon implements PokemonFuego{
     
     public Charmander(int nombrePokedex, String nombre, double peso, int temporada) {
         super(nombrePokedex, nombre, peso, temporada);
     }
+
+    @Override
+    public String atacarPunioFuego() {
+        return "Soy" + getNombre() +" y estoy atacando con Punio de Fuego";
+    }
+
+    @Override
+    public String atacarAscuas() {
+        return "Soy" + getNombre() +" y estoy atacando con Ascuas";
+    }
+
+    @Override
+    public String atacarLanzallamas() {
+        return "Soy" + getNombre() +" y estoy atacando con Lanzallamas";
+    }
+    
+    
     
 }
