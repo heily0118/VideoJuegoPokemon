@@ -46,7 +46,7 @@ public abstract class Pokemon {
         this.peso = peso;
         this.temporada = temporada;
     }
-
+    
     /**
      * Obtiene el número de la Pokédex del Pokémon.
      * @return Retorna el número de la Pokédex del Pokémon.

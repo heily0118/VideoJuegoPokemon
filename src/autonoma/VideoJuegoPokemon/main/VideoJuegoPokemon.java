@@ -7,6 +7,8 @@ package autonoma.VideoJuegoPokemon.main;
 import autonoma.VideoJuegoPokemon.models.Bulbasaur;
 import autonoma.VideoJuegoPokemon.models.Charmander;
 import autonoma.VideoJuegoPokemon.models.Pikachu;
+import autonoma.VideoJuegoPokemon.models.Pokemon;
+import autonoma.VideoJuegoPokemon.models.PokemonElectrico;
 import autonoma.VideoJuegoPokemon.models.Squirtle;
 
 /**
@@ -22,9 +24,16 @@ public class VideoJuegoPokemon {
         Charmander charmander = new Charmander(4, "Charmander", 8.5, 1);
         Squirtle squirtle = new Squirtle(7, "Squirtle", 9.0, 1);
         Bulbasaur bulbasaur = new Bulbasaur(1, "Bulbasaur", 6.9, 1);
-        System.out.println("Ataques comunes");
+        
+        Pokemon p1 = new Pikachu(7, "Pikachu2",2.0,1);
+        PokemonElectrico p2 = new Pikachu (21, "Pikachu3",3.4,1);
+        
+        System.out.println("Ataques");
         System.out.println(pikachu.atacarArañazo());
-       
+        System.out.println(p1.atacarPlacaje());
+        System.out.println(p2.atacarRayo());
+        System.out.println("     ");
+        
         System.out.println("----- Ataques Pokemon -----");
         System.out.println(pikachu.atacarImpactrueno());
         System.out.println(pikachu.atacarPunioTrueno()); 
