@@ -30,7 +30,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
      */
     @Override
     public String atacarParalizar() {
-        return "Soy" + getNombre() + " y estoy atacando con Paralizar";
+        return "Soy" + getNombre() + " y estoy atacando con Paralizar.";
     }
     
     /**
@@ -39,7 +39,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
      */
     @Override
     public String atacarDrenaje() {
-        return "Soy " + getNombre() + " y estoy atacando con drenaje";
+        return "Soy " + getNombre() + " y estoy atacando con drenaje.";
     }
     
     /**
@@ -48,7 +48,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
      */
     @Override
     public String atacarHojaAfilada() {
-        return "Soy " + getNombre() + " y estoy atacando con hoja afilada";
+        return "Soy " + getNombre() + " y estoy atacando con hoja afilada.";
     }
     
     /**
@@ -57,7 +57,7 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta{
      */
     @Override
     public String atacarLatigoCepa() {
-        return "Soy " + getNombre() + " y estoy atacando con latigo cepa";
+        return "Soy " + getNombre() + " y estoy atacando con latigo cepa.";
     }
     
 }

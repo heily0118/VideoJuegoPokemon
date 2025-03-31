@@ -22,11 +22,13 @@ public class VideoJuegoPokemon {
         Charmander charmander = new Charmander(4, "Charmander", 8.5, 1);
         Squirtle squirtle = new Squirtle(7, "Squirtle", 9.0, 1);
         Bulbasaur bulbasaur = new Bulbasaur(1, "Bulbasaur", 6.9, 1);
-
+        System.out.println("Ataques comunes");
+        System.out.println(pikachu.atacarArañazo());
        
         System.out.println("----- Ataques Pokemon -----");
         System.out.println(pikachu.atacarImpactrueno());
         System.out.println(pikachu.atacarPunioTrueno()); 
+        
 
         System.out.println(charmander.atacarLanzallamas());
         System.out.println(charmander.atacarAscuas());

@@ -30,7 +30,7 @@ public class Charmander extends Pokemon implements PokemonFuego{
      */
     @Override
     public String atacarPunioFuego() {
-        return "Soy" + getNombre() + " y estoy atacando con Punio de Fuego";
+        return "Soy" + getNombre() + " y estoy atacando con Punio de Fuego.";
     }
     
     /**
@@ -39,7 +39,7 @@ public class Charmander extends Pokemon implements PokemonFuego{
      */
     @Override
     public String atacarAscuas() {
-        return "Soy" + getNombre() + " y estoy atacando con Ascuas";
+        return "Soy " + getNombre() + " y estoy atacando con Ascuas.";
     }
 
     /**
@@ -48,7 +48,7 @@ public class Charmander extends Pokemon implements PokemonFuego{
      */
     @Override
     public String atacarLanzallamas() {
-        return "Soy" + getNombre() + " y estoy atacando con Lanzallamas";
+        return "Soy " + getNombre() + " y estoy atacando con Lanzallamas.";
     }
     
     

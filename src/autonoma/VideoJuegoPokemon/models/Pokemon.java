@@ -125,7 +125,7 @@ public abstract class Pokemon {
      * @return Retorna un mensaje indicando que el Pokémon está atacando con Arañazo.
      */
     public String atacarArañazo(){
-        return "Soy " + nombre + " y estoy atacando con Arañazo.";
+        return "Soy " + nombre + " y estoy atacando con Aranazo.";
     }
     
     /**
